@@ -1,0 +1,81 @@
+h1{
+	color:red;font-size:50px;text-align:center;
+	font-family:Franklin Gothic Medium;
+}
+h2{
+	color:green;font-size:30px;font-style : italic;
+	 text-decoration: underline;text-transform : uppercase;
+}
+ul{
+	color:blue;font-size:20px;list-style : upper-alpha;
+}
+p{
+	font-size:20px;font-family:verdana;color:#000; 
+	font-weight : bold;
+}
+img{
+	width:200;	height:200;
+}
+a{
+	color: blue;
+	font-size: 20px;
+}
+header{
+	height: 70px;
+	background-color: cadetblue ;
+	text-align: center;
+}
+footer{
+	clear: both;
+	height: 10vh;
+	background-color: #f575f5;
+	text-align:center;
+	padding: 20px;
+}
+nav{
+	float: left;
+	width: 20vw;
+	height: 70vh;
+	background-color: grey;
+}
+section{
+	float: right;
+	width: 80vw;
+	height: 70vh;
+	background-color:  #ddddee;
+}
+div{
+	display: flex;
+}
+iframe {width: 80vw;
+	height: 70vh;}
+/*img{
+	float: left-side;
+	border: solid;
+	border-radius: 25px;
+	box-shadow: 10px 5px 10px red;
+	margin-right: 30px;
+}
+span{
+    font-weight: bold; Les textes seront en gras
+    background-color: green; /*Fond des span jaune
+    color: red; /*Couleur du texte noire
+}*/
+
+
+
+
+
+
+
+
+
+table{
+	align:left;
+}
+.center{
+	color:gray;font-size:20px;text-align:center;
+}  
+.liste_num{
+	background-color:black;
+}

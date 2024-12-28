@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>inscription</title>
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 align="center">Inscription</h1>
+    <form action="sauvegarder.html" name="f" method="POST">
+      <fieldset>
+        <legend>Inscription</legend>
+        <table>
+          <tr>
+            <td>Nom et prénom *:</td>
+            <td>
+              <input type="text" name="nom" maxlength="30" placeholder="nom" />
+              <input
+                type="text"
+                name="prenom"
+                maxlength="30"
+                placeholder="Prénom"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Date de naissance *:</td>
+            <td><input type="date" name="date" /></td>
+          </tr>
+          <tr>
+            <td>Adresse Email *:</td>
+            <td>
+              <input
+                type="email"
+                name="email"
+                placeholder="Saisir votre Email"
+              />
+            </td>
+          </tr>
+          
+          <tr>
+            <td>Club * :</td>
+            <td>
+              <select name="list" size="1">
+                <option selected>Choisir un club</option>
+                <option>Robotique</option>
+                <option>Theatre</option>
+                <option>Déssin</option>
+              </select>
+            </td>
+          </tr>
+          
+          <tr>
+            <td>(*)champs obliguatoire</td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center">
+              <input type="submit" value=" Inscription " />
+              <input type="reset" value="Annuler" />
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>

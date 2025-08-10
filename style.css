@@ -1,81 +1,72 @@
-h1{
-	color:red;font-size:50px;text-align:center;
-	font-family:Franklin Gothic Medium;
-}
-h2{
-	color:green;font-size:30px;font-style : italic;
-	 text-decoration: underline;text-transform : uppercase;
-}
-ul{
-	color:blue;font-size:20px;list-style : upper-alpha;
-}
-p{
-	font-size:20px;font-family:verdana;color:#000; 
-	font-weight : bold;
-}
-img{
-	width:200;	height:200;
-}
-a{
-	color: blue;
-	font-size: 20px;
-}
-header{
-	height: 70px;
-	background-color: cadetblue ;
-	text-align: center;
-}
-footer{
-	clear: both;
-	height: 10vh;
-	background-color: #f575f5;
-	text-align:center;
-	padding: 20px;
+img{width:50px;
+ height: 50px;
+ margin-left: 10%;}
+body{
+ background:linear-gradient(30deg, rgb(239, 11, 155), rgb(11, 162, 208));
+ width: 70%;
+ margin: auto;}
+header{height: 20vh; }
+header h1{
+ text-shadow:0PX 3PX rgb(224, 103, 28);
 }
 nav{
-	float: left;
-	width: 20vw;
-	height: 70vh;
-	background-color: grey;
+ background-color:rgba(168, 131, 21,0.5);
+ border-radius: 15PX 15px 0px 15px;
+ padding-top: 1px;
+ padding-bottom: 1px;
+ width: 70%;
+ position: fixed;
+ top: 10%;
+ }
+li{
+ list-style:circle;
+ display:inline ;
+ margin-left: 20px;
+ }
+.lien {text-decoration: none;
+ color: aliceblue;
+ font-weight: bolder;
+Partie : Création d’un site web interactif 3STI
+34
+ }
+.lien:hover{color: #000;}
+/*.lien:visited{color:rgb(231, 36, 36);}*/
+input:focus{ background-color: bisque;}
+input{float: right;
+ border-radius: 40px;
+ margin-right: 1%;
+ height:20px ;
+}
+h3,h2,footer{background-color: coral;
+ padding-left: 5px;
+}
+main{display: flex;
 }
 section{
-	float: right;
-	width: 80vw;
-	height: 70vh;
-	background-color:  #ddddee;
+ background-color: white;
+ width: 80%;
+ border: solid coral;
+ border-radius: 15px 0px 15px 15px;
+ margin-right: 1%;
+ /* height: 70VH;
+ overflow: scroll;*/
 }
-div{
-	display: flex;
+aside{
+width: 20%;
+background-color: white;
+border: solid coral;
+border-radius: 0px 0px 15px 15px;
 }
-iframe {width: 80vw;
-	height: 70vh;}
-/*img{
-	float: left-side;
-	border: solid;
-	border-radius: 25px;
-	box-shadow: 10px 5px 10px red;
-	margin-right: 30px;
-}
-span{
-    font-weight: bold; Les textes seront en gras
-    background-color: green; /*Fond des span jaune
-    color: red; /*Couleur du texte noire
-}*/
-
-
-
-
-
-
-
-
-
-table{
-	align:left;
-}
-.center{
-	color:gray;font-size:20px;text-align:center;
-}  
-.liste_num{
-	background-color:black;
+footer{
+ margin-top: 5vh;
+ padding: 10px;
+ border-radius: 15px;
+ text-align: center;
+ font-weight: bold;
+ }
+article,p{
+ padding: 2%;
+text-align: justify;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 1.2em;
 }
